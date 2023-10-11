@@ -1,0 +1,47 @@
+.div1-ctn-cardslider{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    gap: 20px;
+}
+
+.h1-namecat-cardslider{
+    color: #fff;
+    font-size: 26px;
+}
+
+.div2-carousel-cardslider{
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.div2-carousel-cardslider .btn1-arrow-cardslider{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    height: 100%;
+    width: 45px;
+    line-height: 250px;
+    text-align: center;
+    background-color: #222222;
+    border: none;
+    top: 0;
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+.div2-carousel-cardslider .btn1-arrow-cardslider:hover{
+    background-color: #2b2b2b;
+}
+
+.div2-carousel-cardslider .arrow-right_cardslider{
+    position: absolute;
+    left: 0px;
+}
+
+.div2-carousel-cardslider .arrow-left_cardslider{
+    position: absolute;
+    right: 0px;
+}
